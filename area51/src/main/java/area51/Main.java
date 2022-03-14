@@ -1,6 +1,6 @@
-package area51.main;
+package area51;
 
-import area51.view.Frame;
+import area51.View.Frame;
 
 public class Main {
 

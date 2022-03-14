@@ -1,9 +1,9 @@
-package area51.controller;
+package area51.Controller;
 
 import java.util.List;
 
 import area51.DAO.ExercicioDAO;
-import area51.model.Exercicio;
+import area51.Model.Exercicio;
 
 public class ControllerPersonal {
 

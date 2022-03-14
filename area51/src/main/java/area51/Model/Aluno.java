@@ -1,4 +1,4 @@
-package area51.model;
+package area51.Model;
 
 public class Aluno {
 	
@@ -6,19 +6,21 @@ public class Aluno {
 	private String nome;
 	private String cpf;
 	private String sexo;
+	private int idTreino;
+	private String email;
 	private Treino treino;
 	
 	public Aluno() {}
-
-	public Aluno(int id, String nome, String cpf, String sexo, Treino treino) {
+	
+	public Aluno(int id, String nome, String cpf, String sexo, int idTreino, Treino treino) {
 		super();
 		this.id = id;
 		this.nome = nome;
 		this.cpf = cpf;
-		this.sexo=sexo;
-		this.treino=treino;
+		this.sexo = sexo;
+		this.idTreino = idTreino;
+		this.treino = treino;
 	}
-	
 
 	public int getId() {
 		return id;
@@ -52,6 +54,22 @@ public class Aluno {
 		this.sexo = sexo;
 	}
 
+	public int getIdTreino() {
+		return idTreino;
+	}
+
+	public void setIdTreino(int idTreino) {
+		this.idTreino = idTreino;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
 	public Treino getTreino() {
 		return treino;
 	}
@@ -59,6 +77,14 @@ public class Aluno {
 	public void setTreino(Treino treino) {
 		this.treino = treino;
 	}
+
+	@Override
+	public String toString() {
+		return "Aluno [id=" + id + ", nome=" + nome + ", cpf=" + cpf + ", sexo=" + sexo + ", idTreino=" + idTreino
+				+ ", email=" + email + ", treino=" + treino + "]";
+	}
+
+
 	
 	
 }

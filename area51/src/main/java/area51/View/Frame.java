@@ -1,4 +1,4 @@
-package area51.view;
+package area51.View;
 
 import java.awt.Toolkit;
 
@@ -18,7 +18,8 @@ public class Frame extends JFrame{
 		setBounds(100, 100, 1000, 700);
 		setTitle("Academia area51");
 		setLocationRelativeTo(null);
-		setIconImage(Toolkit.getDefaultToolkit().getImage(Frame.class.getResource("/area51/view/halter.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(Frame.class.getResource("/area51/view/area51.jpg")));
+		//setResizable(false);
 	    
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		//jf.setContentPane();

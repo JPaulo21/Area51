@@ -1,4 +1,4 @@
-package area51.model;
+package area51.Model;
 
 public class Exercicio {
 

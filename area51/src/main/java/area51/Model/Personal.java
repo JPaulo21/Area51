@@ -1,4 +1,4 @@
-package area51.model;
+package area51.Model;
 
 public class Personal {
 	
@@ -6,6 +6,7 @@ public class Personal {
 	private String nome;
 	private String cref;
 	private char sexo;
+	private String horario;
 	
 	public Personal() {
 		
